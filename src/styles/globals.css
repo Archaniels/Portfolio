@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+  /* max-width: 100%; */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* overflow: hidden; */
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
