@@ -21,24 +21,31 @@ function Sidebar() {
         </div>
 
         <nav className="mt-10 flex flex-col gap-4 text-3xl">
-          <a
-            href="#experience"
-            className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
-          >
-            ~ Experience
-          </a>
-          <a
-            href="#projects"
-            className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
-          >
-            ~ Projects
-          </a>
-          <a
-            href="#contact"
-            className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
-          >
-            ~ Contact
-          </a>
+          <section id="experience">
+            <a
+              href="#experience"
+              className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
+            >
+              ~ Experience
+            </a>
+          </section>
+
+          <section id="projects">
+            <a
+              href="#projects"
+              className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
+            >
+              ~ Projects
+            </a>
+          </section>
+          <section id="contact">
+            <a
+              href="#contact"
+              className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
+            >
+              ~ Contact
+            </a>
+          </section>
         </nav>
 
         <a
@@ -130,6 +137,57 @@ function MainContent() {
                 NodeJS
               </span>
             </div>
+          </div>
+        }
+      />
+
+      <TimelineItem
+        time="October - November 2025"
+        title="LinkAja Savings"
+        description="LinkAja Savings menghadirkan sistem gamifikasi, dengan implementasi quest, reward dan objective, yang mencakup misi seperti 'hemat lima ribu rupiah untuk tabungan Anda', atau 'belanjakan kurang dari tiga-ratus ribu rupiah untuk bahan bakar kendaraan bulan ini', dan berbagai macam misi lainnya."
+        imageSrc="/img/LinkAja_Savings.png"
+        imageAlt="LinkAja Savings Thumbnail"
+        action={
+          <div className="flex flex-wrap items-center gap-4">
+            <a
+              href="https://www.behance.net/gallery/240546883/LinkAja-Savings"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                type="button"
+                className="inline-flex items-center gap-3 text-[rgb(51,65,85)] border-2 font-bold border-[rgb(51,65,85)] rounded-xl px-4 py-2.5 hover:text-[rgb(100,116,139)] hover:border-[rgb(100,116,139)] transition"
+              >
+                <Image
+                  className="w-6 h-6"
+                  src="/img/behance-logo-icon-free-png.webp"
+                  alt="Behance"
+                  width={24}
+                  height={24}
+                />
+                Open on Behance
+              </button>
+            </a>
+
+            <a
+              href="https://www.figma.com/design/MGleT5jtUdL1LjbUzVgINq/LinkAja?node-id=2-2&t=g3PvaLdrMbcNjvSg-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                type="button"
+                className="inline-flex items-center gap-3 text-[rgb(51,65,85)] border-2 font-bold border-[rgb(51,65,85)] rounded-xl px-4 py-2.5 hover:text-[rgb(100,116,139)] hover:border-[rgb(100,116,139)] transition"
+              >
+                <Image
+                  className="w-6 h-6"
+                  src="/img/Figma-logo.svg"
+                  alt="Figma"
+                  width={24}
+                  height={24}
+                />
+                Open on Figma (View Only)
+              </button>
+            </a>
           </div>
         }
       />
@@ -372,6 +430,8 @@ function TimelineItem({
 
         {imageSrc && (
           <img
+            // width={500}
+            // height={500}
             src={imageSrc}
             alt={imageAlt ?? title}
             className="w-full max-w-3xl rounded-xl border border-zinc-700"
