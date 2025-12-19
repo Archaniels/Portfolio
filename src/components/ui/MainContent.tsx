@@ -4,18 +4,21 @@ import Image from "next/image";
 export function MainContent() {
   return (
     <main className="bg-[#09090B] flex-1 px-12 py-16">
-      <h2 className="mb-6 text-4xl font-semibold">Experience</h2>
-      <TimelineItem
-        time="Aug 2023 – Present | Education"
-        title="S1 Rekayasa Perangkat Lunak"
-        description="I am studying at Telkom University Bandung, School of Computing, dedicating myself to full-time academic studies, with an expected graduation date of 2026."
-      />
-      <TimelineItem
-        time="2020 – 2023 | Education"
-        title="Ilmu Pengetahuan Alam"
-        description="SMAS Korpri Bekasi."
-      />
+      <section id="experience">
+        <h2 className="mb-6 text-4xl font-semibold">Experience</h2>
+        <TimelineItem
+          time="Aug 2023 – Present | Education"
+          title="S1 Rekayasa Perangkat Lunak"
+          description="I am studying at Telkom University Bandung, School of Computing, dedicating myself to full-time academic studies, with an expected graduation date of 2026."
+        />
+        <TimelineItem
+          time="2020 – 2023 | Education"
+          title="Ilmu Pengetahuan Alam"
+          description="SMAS Korpri Bekasi."
+        />
+      </section>
 
+      <section id="projects"></section>
       <h2 className="mb-6 mt-6 text-4xl font-semibold">Projects</h2>
       <TimelineItem
         time="November - December 2025"
@@ -188,6 +191,43 @@ export function MainContent() {
       />
 
       <TimelineItem
+        time="Juni 2025"
+        title="Project Based Learning (Machine Learning) pada sebuah dataset 'ai_dev_productivity.csv'"
+        description="Machine Learning pada sebuah dataset 'ai_dev_productivity.csv' untuk  mengklasifikasi sebuah data, dimana target yang akan ditentukan adalah 'task_success', dan dibangun menggunakan bahasa pemrograman Python."
+        imageSrc=""
+        imageAlt="ReTide Landing Page"
+        action={
+          <div className="flex flex-wrap items-center gap-4">
+            <a
+              href="https://github.com/Archaniels/Project-Based-Learning"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                type="button"
+                className="inline-flex items-center gap-3 text-[rgb(51,65,85)] border-2 font-bold border-[rgb(51,65,85)] rounded-xl px-4 py-2.5 hover:text-[rgb(100,116,139)] hover:border-[rgb(100,116,139)] transition"
+              >
+                <Image
+                  className="w-6 h-6"
+                  src="/img/icons/Octicons-mark-github.svg"
+                  alt="GitHub"
+                  width={24}
+                  height={24}
+                />
+                Open on GitHub
+              </button>
+            </a>
+
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="rounded-lg border border-zinc-700 px-4 py-2.5 text-zinc-400">
+                Python
+              </span>
+            </div>
+          </div>
+        }
+      />
+
+      <TimelineItem
         time="April - Mei 2025"
         title="Re:Tide – Recycled Product E-Commerce"
         description="Platform e-commerce C# berbasis GUI untuk produk daur ulang dengan
@@ -287,7 +327,59 @@ untuk menghasilkan keluaran peringkat teratas dari data Excel."
       />
 
       <TimelineItem
-        time="Desember 2023"
+        time="Mar - Mei 2025"
+        title="Case-Based Searching menggunakan Genetic Algorithm"
+        description="Program berbasis CLI menggunakan Python untuk melakukan proses searching melalui Genetic Algorithm, mulai dari proses inisialisasi populasi, fitness, selection, mutation, dan seleksi survivor hingga memenuhi kriteria loop yang telah ditentukan, yaitu hingga telah mencapai 100 generasi."
+        imageSrc=""
+        imageAlt="ReTide Landing Page"
+        action={
+          <div className="flex flex-wrap items-center gap-4">
+            <a
+              href="https://github.com/Archaniels/Case-Based-Searching-GA---AI"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                type="button"
+                className="inline-flex items-center gap-3 text-[rgb(51,65,85)] border-2 font-bold border-[rgb(51,65,85)] rounded-xl px-4 py-2.5 hover:text-[rgb(100,116,139)] hover:border-[rgb(100,116,139)] transition"
+              >
+                <Image
+                  className="w-6 h-6"
+                  src="/img/icons/Octicons-mark-github.svg"
+                  alt="GitHub"
+                  width={24}
+                  height={24}
+                />
+                Open on GitHub
+              </button>
+            </a>
+
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="rounded-lg border border-zinc-700 px-4 py-2.5 text-zinc-400">
+                C#
+              </span>
+              <span className="rounded-lg border border-zinc-700 px-4 py-2.5 text-zinc-400">
+                .NET 8
+              </span>
+              <span className="rounded-lg border border-zinc-700 px-4 py-2.5 text-zinc-400">
+                ASP.NET Core MVC
+              </span>
+              <span className="rounded-lg border border-zinc-700 px-4 py-2.5 text-zinc-400">
+                REST API
+              </span>
+              <span className="rounded-lg border border-zinc-700 px-4 py-2.5 text-zinc-400">
+                JSON
+              </span>
+              <span className="rounded-lg border border-zinc-700 px-4 py-2.5 text-zinc-400">
+                MSTest
+              </span>
+            </div>
+          </div>
+        }
+      />
+
+      <TimelineItem
+        time="Desember 2024"
         title="Knight's Move Path Calculator"
         description="Memimpin pengembangan aplikasi GUI untuk membandingkan BFS &
 DFS pada langkah kuda (N×N), dengan visualisasi kinerja, pengukuran
@@ -331,6 +423,76 @@ polinomial."
               </span>
               <span className="rounded-lg border border-zinc-700 px-4 py-2.5 text-zinc-400">
                 Matplotlib
+              </span>
+            </div>
+          </div>
+        }
+      />
+
+      <TimelineItem
+        time="Desember 2024"
+        title="Shortest Path and Alternative Path Calculator between Vortex Buildings and Vortex Roads in Telkom University"
+        description="Mencari shortest path, dan alternative path pada sebuah graph (Vertex dan Edge) dengan konteks Vortex sebagai gedung, dan edge sebaga jalur. Dibangun menggunakan bahasa pemrograman C++."
+        action={
+          <div className="flex flex-wrap items-center gap-4">
+            <a
+              href="https://github.com/Rd27p/TUBES-STD"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                type="button"
+                className="inline-flex items-center gap-3 text-[rgb(51,65,85)] border-2 font-bold border-[rgb(51,65,85)] rounded-xl px-4 py-2.5 hover:text-[rgb(100,116,139)] hover:border-[rgb(100,116,139)] transition"
+              >
+                <Image
+                  className="w-6 h-6"
+                  src="/img/icons/Octicons-mark-github.svg"
+                  alt="GitHub"
+                  width={24}
+                  height={24}
+                />
+                Open on GitHub
+              </button>
+            </a>
+
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="rounded-lg border border-zinc-700 px-4 py-2.5 text-zinc-400">
+                C++
+              </span>
+            </div>
+          </div>
+        }
+      />
+
+      <TimelineItem
+        time="Desember 2023"
+        title="Medical Check-Up"
+        description="Sebuah aplikasi sederhana yang berdasarkan Command Line, dibangung menggunakan bahasa pemrograman Go."
+        action={
+          <div className="flex flex-wrap items-center gap-4">
+            <a
+              href="https://github.com/Archaniels/TUBES_Medical-Check-Up"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                type="button"
+                className="inline-flex items-center gap-3 text-[rgb(51,65,85)] border-2 font-bold border-[rgb(51,65,85)] rounded-xl px-4 py-2.5 hover:text-[rgb(100,116,139)] hover:border-[rgb(100,116,139)] transition"
+              >
+                <Image
+                  className="w-6 h-6"
+                  src="/img/icons/Octicons-mark-github.svg"
+                  alt="GitHub"
+                  width={24}
+                  height={24}
+                />
+                Open on GitHub
+              </button>
+            </a>
+
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="rounded-lg border border-zinc-700 px-4 py-2.5 text-zinc-400">
+                Go
               </span>
             </div>
           </div>
