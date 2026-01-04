@@ -4,15 +4,15 @@ import React from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const images = [
-  "img/InAFlash/Views.jpeg",
-  "img/InAFlash/Jeda Coffee (Market Day).jpeg",
-  "img/InAFlash/Jeda Coffee (Successful Pitching).jpeg",
-  "img/InAFlash/MainPP.jpg",
-  "img/InAFlash/Me and Sis.jpeg",
-  "img/InAFlash/ReTide (Flutter App) Presentation.jpeg",
-  "img/InAFlash/Volunteering at PYI.jpeg",
-  "img/InAFlash/Waterfall.jpeg",
-  "img/InAFlash/Views2.jpg",
+  "/img/InAFlash/Views.jpeg",
+  "/img/InAFlash/Jeda Coffee (Market Day).jpeg",
+  "/img/InAFlash/Jeda Coffee (Successful Pitching).jpeg",
+  "/img/InAFlash/MainPP.jpg",
+  "/img/InAFlash/Me and Sis.jpeg",
+  "/img/InAFlash/ReTide (Flutter App) Presentation.jpeg",
+  "/img/InAFlash/Volunteering at PYI.jpeg",
+  "/img/InAFlash/Waterfall.jpeg",
+  "/img/InAFlash/Views2.jpg",
 ];
 
 export default function InAFlash() {

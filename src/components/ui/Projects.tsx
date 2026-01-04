@@ -6,7 +6,7 @@ export function Projects() {
     return (
         <main className="bg-[#09090B] flex-1 px-12 py-16">
             <section id="projects"></section>
-            <h2 className="mb-6 mt-6 text-4xl font-semibold">Projects</h2>
+            <h2 className="mb-6 text-4xl font-semibold">Projects</h2>
             <TimelineItem
                 time="November - December 2025"
                 title="ReTide Web Application"
@@ -26,7 +26,7 @@ export function Projects() {
                             >
                                 <Image
                                     className="w-6 h-6"
-                                    src="/img/icons/Octicons-mark-github.svg"
+                                    src="/icons/Octicons-mark-github.svg"
                                     alt="GitHub"
                                     width={24}
                                     height={24}
@@ -147,7 +147,7 @@ export function Projects() {
                             >
                                 <Image
                                     className="w-6 h-6"
-                                    src="/img/icons/Octicons-mark-github.svg"
+                                    src="/icons/Octicons-mark-github.svg"
                                     alt="GitHub"
                                     width={24}
                                     height={24}
@@ -196,7 +196,7 @@ export function Projects() {
                             >
                                 <Image
                                     className="w-6 h-6"
-                                    src="/img/icons/Octicons-mark-github.svg"
+                                    src="/icons/Octicons-mark-github.svg"
                                     alt="GitHub"
                                     width={24}
                                     height={24}
@@ -255,7 +255,7 @@ pola rekayasa perangkat lunak tingkat lanjut dan praktik terbaik."
                             >
                                 <Image
                                     className="w-6 h-6"
-                                    src="/img/icons/Octicons-mark-github.svg"
+                                    src="/icons/Octicons-mark-github.svg"
                                     alt="GitHub"
                                     width={24}
                                     height={24}
@@ -309,7 +309,7 @@ untuk menghasilkan keluaran peringkat teratas dari data Excel."
                             >
                                 <Image
                                     className="w-6 h-6"
-                                    src="/img/icons/Octicons-mark-github.svg"
+                                    src="/icons/Octicons-mark-github.svg"
                                     alt="GitHub"
                                     width={24}
                                     height={24}
@@ -352,7 +352,7 @@ untuk menghasilkan keluaran peringkat teratas dari data Excel."
                             >
                                 <Image
                                     className="w-6 h-6"
-                                    src="/img/icons/Octicons-mark-github.svg"
+                                    src="/icons/Octicons-mark-github.svg"
                                     alt="GitHub"
                                     width={24}
                                     height={24}
@@ -406,7 +406,7 @@ polinomial."
                             >
                                 <Image
                                     className="w-6 h-6"
-                                    src="/img/icons/Octicons-mark-github.svg"
+                                    src="/icons/Octicons-mark-github.svg"
                                     alt="GitHub"
                                     width={24}
                                     height={24}
@@ -453,7 +453,7 @@ polinomial."
                             >
                                 <Image
                                     className="w-6 h-6"
-                                    src="/img/icons/Octicons-mark-github.svg"
+                                    src="/icons/Octicons-mark-github.svg"
                                     alt="GitHub"
                                     width={24}
                                     height={24}
@@ -488,7 +488,7 @@ polinomial."
                             >
                                 <Image
                                     className="w-6 h-6"
-                                    src="/img/icons/Octicons-mark-github.svg"
+                                    src="/icons/Octicons-mark-github.svg"
                                     alt="GitHub"
                                     width={24}
                                     height={24}

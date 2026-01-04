@@ -1,15 +1,12 @@
 import Sidebar from "@/components/ui/Sidebar";
-import { MainContent } from "@/components/ui/MainContent";
-import { Contact } from "@/components/ui/Contact";
-import { Projects } from "@/components/ui/Projects";
-import { Experience } from "@/components/ui/Experience";
+import { Home } from "@/components/ui/Home";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className="min-h-screen bg-[#09090B] font-sans">
       <div className="mx-auto flex max-w-7xl">
         <Sidebar />
-        <MainContent />
+        <Home />
         {/* <Experience />
         <Projects />
         <Contact /> */}

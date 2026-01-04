@@ -1,7 +1,7 @@
 export function Contact() {
     return (
         <main className="bg-[#09090B] flex-1 px-12 py-16">
-            <h2 className="mb-6 mt-6 text-4xl font-semibold">Contact</h2>
+            <h2 className="mb-6 text-4xl font-semibold">Contact</h2>
             {/* <p className="text-2xl text-gray-600 dark:text-gray-400">Aug 2023 – Present | Education</p> */}
             {/* <p className="text-4xl mt-[-20px] font-bold text-white">
         

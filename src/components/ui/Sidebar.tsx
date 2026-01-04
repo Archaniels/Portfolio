@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Sidebar() {
   return (
@@ -11,6 +12,14 @@ export default function Sidebar() {
         </div>
 
         <nav className="mt-10 flex flex-col gap-4 text-3xl">
+          <section id="home">
+            <Link
+              href="/"
+              className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
+            >
+              ~ Home
+            </Link>
+          </section>
           <section id="experience">
             <a
               href="/ExperiencePage"
@@ -49,11 +58,11 @@ export default function Sidebar() {
         <a
           href="https://github.com/Archaniels"
           target="_blank"
-          className="mt-16 flex items-center gap-5 font-semibold text-3xl text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
+          className="mt-10 flex items-center gap-5 font-semibold text-3xl text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
         >
           <Image
             className="w-7 h-7"
-            src="/img/icons/Octicons-mark-github.svg"
+            src="/icons/Octicons-mark-github.svg"
             alt="GitHub"
             width={24}
             height={24}
