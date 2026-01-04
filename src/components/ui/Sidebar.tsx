@@ -13,7 +13,7 @@ export default function Sidebar() {
         <nav className="mt-10 flex flex-col gap-4 text-3xl">
           <section id="experience">
             <a
-              href="#experience"
+              href="/ExperiencePage"
               className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
             >
               ~ Experience
@@ -22,7 +22,7 @@ export default function Sidebar() {
 
           <section id="projects">
             <a
-              href="#projects"
+              href="/ProjectPage"
               className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
             >
               ~ Projects
@@ -30,7 +30,7 @@ export default function Sidebar() {
           </section>
           <section id="contact">
             <a
-              href="#contact"
+              href="/ContactPage"
               className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
             >
               ~ Contact
@@ -57,7 +57,7 @@ export default function Sidebar() {
             alt="GitHub"
             width={24}
             height={24}
-            // aria-hidden="true"
+          // aria-hidden="true"
           />
           Archaniels
         </a>
