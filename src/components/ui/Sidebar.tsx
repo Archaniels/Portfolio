@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function Sidebar() {
+export default function Sidebar() {
   return (
     <aside className="bg-[#09090B] sticky top-0 h-screen w-80 border-r border-zinc-200 ml-[-5rem] py-16 dark:border-zinc-800">
       <div className="flex flex-col gap-6">
@@ -36,12 +36,20 @@ export function Sidebar() {
               ~ Contact
             </a>
           </section>
+          <section id="inaflash">
+            <a
+              href="/InAFlashPage"
+              className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
+            >
+              ~ In A Flash
+            </a>
+          </section>
         </nav>
 
         <a
           href="https://github.com/Archaniels"
           target="_blank"
-          className="mt-32 flex items-center gap-5 font-semibold text-3xl text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
+          className="mt-16 flex items-center gap-5 font-semibold text-3xl text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
         >
           <Image
             className="w-7 h-7"

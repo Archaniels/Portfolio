@@ -218,6 +218,26 @@ export function MainContent() {
               </button>
             </a>
 
+            <a
+              href="https://www.kaggle.com/datasets/atharvasoundankar/ai-developer-productivity-dataset"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                type="button"
+                className="inline-flex items-center gap-3 text-[rgb(51,65,85)] border-2 font-bold border-[rgb(51,65,85)] rounded-xl px-4 py-2.5 hover:text-[rgb(100,116,139)] hover:border-[rgb(100,116,139)] transition"
+              >
+                <Image
+                  className="w-6 h-6"
+                  src="/img/Kaggle_Logo.svg"
+                  alt="Kaggle"
+                  width={24}
+                  height={24}
+                />
+                Open on Kaggle
+              </button>
+            </a>
+
             <div className="flex flex-wrap items-center gap-2">
               <span className="rounded-lg border border-zinc-700 px-4 py-2.5 text-zinc-400">
                 Python
@@ -500,11 +520,24 @@ polinomial."
       />
 
       <h2 className="mb-6 mt-6 text-4xl font-semibold">Contact</h2>
-      <TimelineItem
-        time="Aug 2023 – Present | Education"
-        title="S1 Rekayasa Perangkat Lunak"
-        description="I am studying at Telkom University Bandung, School of Computing, dedicating myself to full-time academic studies, with an expected graduation date of 2026."
-      />
+      {/* <p className="text-2xl text-gray-600 dark:text-gray-400">Aug 2023 – Present | Education</p> */}
+      {/* <p className="text-4xl mt-[-20px] font-bold text-white">
+        
+      </p> */}
+      <p className="text-2xl text-[#CBD5E1] dark:text-gray-400 max-w-3xl">
+        Reach my inbox:{" "}
+        <a href="mailto:arshaqdaniyal@gmail.com" className="text-[#CBD5E1]">
+          arshaqdaniyal@gmail.com
+        </a>{" "}
+        (📱 Personal) or{" "}
+        <a
+          href="mailto:daniyalars@student.telkomuniversity.ac.id"
+          className="text-[#CBD5E1]"
+        >
+          daniyalars@student.telkomuniversity.ac.id
+        </a>{" "}
+        (🏫 School).
+      </p>
     </main>
   );
 }

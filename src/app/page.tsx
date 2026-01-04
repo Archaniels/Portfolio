@@ -1,4 +1,4 @@
-import { Sidebar } from "@/components/ui/Sidebar";
+import Sidebar from "@/components/ui/Sidebar";
 import { MainContent } from "@/components/ui/MainContent";
 
 export default function Home() {
