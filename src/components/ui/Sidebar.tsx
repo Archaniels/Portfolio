@@ -22,7 +22,7 @@ export default function Sidebar() {
           </section>
           <section id="experience">
             <a
-              href="/ExperiencePage"
+              href="/experience"
               className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
             >
               ~ Experience
@@ -31,7 +31,7 @@ export default function Sidebar() {
 
           <section id="projects">
             <a
-              href="/ProjectPage"
+              href="/projects"
               className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
             >
               ~ Projects
@@ -39,7 +39,7 @@ export default function Sidebar() {
           </section>
           <section id="contact">
             <a
-              href="/ContactPage"
+              href="/contact"
               className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
             >
               ~ Contact
@@ -47,7 +47,7 @@ export default function Sidebar() {
           </section>
           <section id="inaflash">
             <a
-              href="/InAFlashPage"
+              href="/inaflash"
               className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]"
             >
               ~ In A Flash
