@@ -1,5 +1,6 @@
 "use client";
 import dynamic from "next/dynamic";
+import WIP from "@/components/ui/WIP";
 
 const InAFlash = dynamic(
   () => import("@/components/ui/InAFlash").then((mod) => mod.default),
@@ -16,7 +17,8 @@ export default function InAFlashPage() {
     <div className="min-h-screen bg-[#09090B] font-sans">
       <div className="mx-auto flex max-w-7xl">
         <Sidebar />
-        <InAFlash />
+        <WIP />
+        {/* <InAFlash /> */}
       </div>
     </div>
   );
