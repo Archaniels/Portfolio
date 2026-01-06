@@ -36,14 +36,15 @@ export function Home() {
                             onClick={() =>
                                 window.open("/personal/CV_Daniyal Arshaq Sudrajat.pdf", "_blank")
                             }
-                            className="transition-opacity duration-300 hover:opacity-40 inline-flex items-center gap-2 border border-[rgba(128,128,128,0.2)] rounded-md px-3 py-2 font-poppins text-base tracking-[-0.6px]"
+                            className="bg-white text-black transition-opacity duration-300 hover:opacity-40 inline-flex items-center gap-2 border border-white rounded-md px-3 py-2 font-poppins text-base tracking-[-0.6px]"
                         >
+                            {/* <svg className="h-4 w-4 invert-100" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-paperclip" viewBox="0 0 24 24"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48" /></svg> */}
                             <img
                                 src={Icons.imgCV}
                                 alt="cv"
-                                className="h-4 w-4 invert"
+                                className="h-4 w-4"
                             />
-                            Curriculum Vitae (CV)
+                            Download my Curriculum Vitae (CV)
                         </button>
 
                         <div className="flex items-center gap-4 ml-4">
