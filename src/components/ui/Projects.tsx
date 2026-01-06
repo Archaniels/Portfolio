@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Projects() {
     return (
-        <main className="bg-[#09090B] flex-1 px-12 py-16">
+        <main className="bg-[#09090B] flex-1 px-6 py-8 md:px-12 md:py-16">
             <section id="projects"></section>
             <h2 className="mb-6 text-4xl font-semibold">Projects</h2>
             <TimelineItem

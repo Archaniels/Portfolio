@@ -4,16 +4,16 @@ import * as Icons from "@/lib/assets";
 
 export function Home() {
     return (
-        <main className="bg-[#09090B] flex-1 px-12 py-16">
+        <main className="bg-[#09090B] flex-1 px-6 py-8 md:px-12 md:py-16">
 
             {/* HERO SECTION */}
             <section
                 id="hero"
-                className="flex flex-col lg:flex-row items-center justify-between gap-16"
+                className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-16"
             >
                 {/* LEFT: TEXT */}
                 <div className="max-w-2xl">
-                    <h2 className="mb-6 text-4xl font-semibold">Home</h2>
+                    <h2 className="mb-6 text-3xl md:text-4xl font-semibold">Home</h2>
 
                     <p className="mt-12 mb-6 text-2xl text-white font-semibold">
                         👋 Hello, I&apos;m Daniyal Arshaq Sudrajat.
@@ -80,7 +80,7 @@ export function Home() {
                     Tech Stack
                 </p>
                 {/* Essentials */}
-                <ul className="select-none grid w-full gap-4 md:grid-cols-4 bg-[#09090B] mt-6">
+                <ul className="select-none grid w-full gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 bg-[#09090B] mt-6">
                     <li>
                         <div className="block">
                             <svg className="mb-2 w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>HTML5 Logo Badge</title><path fill="#e34f26" d="M71 460 30 0h451l-41 460-185 52" /><path fill="#ef652a" d="m256 472 149-41 35-394H256" /><path fill="#ebebeb" d="M256 208h-75l-5-58h80V94H114l1 15 14 156h127zm0 147h-1l-63-17-4-45h-56l7 89 116 32h1z" /><path fill="#fff" d="M255 208v57h70l-7 73-63 17v59l116-32 1-10 13-149 2-15h-16zm0-114v56h137l1-12 3-29 1-15z" /></svg>
@@ -115,7 +115,7 @@ export function Home() {
                 <p className="mt-12 text-xl text-white font-semibold">
                     Tools and Frameworks
                 </p>
-                <ul className="flex items-center justify-center w-full gap-14 md:grid-cols-16 bg-[#0D0D11] rounded-xl px-6 py-6 mt-6">
+                <ul className="flex flex-wrap items-center justify-center w-full gap-8 md:gap-14 bg-[#0D0D11] rounded-xl px-6 py-6 mt-6">
                     {/* Tailwind */}
                     <li className="flex items-center justify-center w-6 h-6">
                         <div className="block">
