@@ -52,7 +52,27 @@ export function Projects() {
                                     width={24}
                                     height={24}
                                 />
-                                Open on Figma (Playable Prototype)
+                                Open on Figma (Interactive Prototype)
+                            </button>
+                        </a>
+
+                        <a
+                            href="https://drive.google.com/drive/folders/1JW_QBZCX5ObD85ssYVQtLdpD8dY1kUl4?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button
+                                type="button"
+                                className="inline-flex items-center gap-3 text-[rgb(51,65,85)] border-2 font-bold border-[rgb(51,65,85)] rounded-xl px-4 py-2.5 hover:text-[rgb(100,116,139)] hover:border-[rgb(100,116,139)] transition"
+                            >
+                                <Image
+                                    className="w-5 h-5"
+                                    src="/icons/Google-Drive.svg"
+                                    alt="Google Drive"
+                                    width={24}
+                                    height={24}
+                                />
+                                Open on Google Drive (Research Files)
                             </button>
                         </a>
 
