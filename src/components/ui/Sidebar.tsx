@@ -41,9 +41,9 @@ export default function Sidebar() {
             <section id="contact">
               <a href="/contact" className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]">~ Contact</a>
             </section>
-            <section id="inaflash">
+            {/* <section id="inaflash">
               <a href="/inaflash" className="font-semibold text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]">~ In A Flash</a>
-            </section>
+            </section> */}
           </nav>
 
           <a href="https://github.com/Archaniels" target="_blank" className="mt-10 flex items-center gap-5 font-semibold text-3xl text-[rgb(51,65,85)] hover:text-[rgb(100,116,139)]">

@@ -7,6 +7,64 @@ export function Projects() {
         <main className="bg-[#09090B] flex-1 px-6 py-8 md:px-12 md:py-16">
             <section id="projects"></section>
             <h2 className="mb-6 text-4xl font-semibold">Projects</h2>
+
+            <TimelineItem
+                time="April 2025 - January 2026"
+                title="ReTide"
+                description="Re:Tide adalah sebuah situs web yang berfokus pada edukasi lingkungan, pengelolaan sampah plastik, dan pemberdayaan masyarakat. Tujuan utama dari ReTide adalah membantu mengurangi masalah sampah di laut melalui fitur-fitur seperti sistem pelacakan sampah digital dan marketplace produk hasil daur ulang, dan meningkatkan kesadaran masyarakat terhadap pencemaran air sekaligus memberikan sarana partisipatif untuk menjaga kebersihan lingkungan."
+                imageSrc="/img/ReTide Project/Report.png"
+                imageAlt="ReTide Report Page"
+                action={
+                    <div className="flex flex-wrap items-center gap-4">
+                        <a
+                            href="https://www.figma.com/design/5Fs6tgsmoj9i4RiqxHp3gY/UX?node-id=0-1&t=gKDkUgZSFi7beKpr-1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button
+                                type="button"
+                                className="inline-flex items-center gap-3 text-[rgb(51,65,85)] border-2 font-bold border-[rgb(51,65,85)] rounded-xl px-4 py-2.5 hover:text-[rgb(100,116,139)] hover:border-[rgb(100,116,139)] transition"
+                            >
+                                <Image
+                                    className="w-6 h-6"
+                                    src="/img/Figma-logo.svg"
+                                    alt="Figma"
+                                    width={24}
+                                    height={24}
+                                />
+                                Open on Figma (View Only)
+                            </button>
+                        </a>
+
+                        <a
+                            href="https://www.figma.com/proto/5Fs6tgsmoj9i4RiqxHp3gY/UX?page-id=0%3A1&node-id=259-5182&viewport=1234%2C336%2C0.31&t=6YvKbuJJwlq3jYjN-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=259%3A5182&show-proto-sidebar=1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button
+                                type="button"
+                                className="inline-flex items-center gap-3 text-[rgb(51,65,85)] border-2 font-bold border-[rgb(51,65,85)] rounded-xl px-4 py-2.5 hover:text-[rgb(100,116,139)] hover:border-[rgb(100,116,139)] transition"
+                            >
+                                <Image
+                                    className="w-6 h-6"
+                                    src="/img/Figma-logo.svg"
+                                    alt="Figma"
+                                    width={24}
+                                    height={24}
+                                />
+                                Open on Figma (Playable Prototype)
+                            </button>
+                        </a>
+
+                        <div className="flex flex-wrap items-center gap-2">
+                            <span className="rounded-lg border border-zinc-700 px-4 py-2.5 text-zinc-400">
+                                UI/UX
+                            </span>
+                        </div>
+                    </div>
+                }
+            />
+
             <TimelineItem
                 time="November - December 2025"
                 title="ReTide Web Application"
