@@ -1,3 +1,5 @@
+import { AvatarCircles, Avatar } from "./avatar-circles";
+
 export function TimelineItem({
   time,
   title,
@@ -5,6 +7,8 @@ export function TimelineItem({
   action,
   imageSrc,
   imageAlt,
+  avatars,
+  numPeople,
 }: {
   time: string;
   title: string;
@@ -12,6 +16,8 @@ export function TimelineItem({
   action?: React.ReactNode;
   imageSrc?: string;
   imageAlt?: string;
+  avatars?: Avatar[];
+  numPeople?: number;
 }) {
   return (
     // Change flex direction to column on mobile, row on large screens
@@ -29,11 +35,23 @@ export function TimelineItem({
         <p className="text-2xl md:text-4xl mt-[-5px] md:mt-[-20px] font-bold text-white">{title}</p>
 
         {imageSrc && (
-          <img
-            src={imageSrc}
-            alt={imageAlt ?? title}
-            className="w-full max-w-3xl rounded-xl border border-zinc-700"
-          />
+          <div className="relative w-full max-w-3xl">
+            <img
+              src={imageSrc}
+              alt={imageAlt ?? title}
+              className="w-full rounded-xl border border-zinc-700"
+            />
+
+            {/* Avatar overlay */}
+            {avatars && avatars.length > 0 && (
+              <div className="absolute bottom-4 right-4 z-20 bg-[#09090B] px-4 py-2 rounded-full">
+                <AvatarCircles
+                  numPeople={numPeople ?? 0}
+                  avatarUrls={avatars}
+                />
+              </div>
+            )}
+          </div>
         )}
 
         <p className="text-lg md:text-2xl text-[#CBD5E1] dark:text-gray-400 max-w-3xl">

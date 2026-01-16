@@ -1,3 +1,4 @@
+
 import { TimelineItem } from "./TimelineItem";
 import Image from "next/image";
 
@@ -14,6 +15,21 @@ export function Projects() {
                 description="Re:Tide adalah sebuah situs web yang berfokus pada edukasi lingkungan, pengelolaan sampah plastik, dan pemberdayaan masyarakat. Tujuan utama dari ReTide adalah membantu mengurangi masalah sampah di laut melalui fitur-fitur seperti sistem pelacakan sampah digital dan marketplace produk hasil daur ulang, dan meningkatkan kesadaran masyarakat terhadap pencemaran air sekaligus memberikan sarana partisipatif untuk menjaga kebersihan lingkungan."
                 imageSrc="/img/ReTide Project/Report.png"
                 imageAlt="ReTide Report Page"
+                numPeople={0}
+                avatars={[
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/144053742",
+                        profileUrl: "https://github.com/delvinkhairan",
+                    },
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/114894773",
+                        profileUrl: "https://github.com/Rinitial",
+                    },
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/171002061",
+                        profileUrl: "https://github.com/bagasstvermilion",
+                    },
+                ]}
                 action={
                     <div className="flex flex-wrap items-center gap-4">
                         <a
@@ -81,6 +97,8 @@ export function Projects() {
                                 UI/UX
                             </span>
                         </div>
+
+
                     </div>
                 }
             />
@@ -91,6 +109,21 @@ export function Projects() {
                 description="ReTide web application utilizing HTML, Tailwind CSS, JavaScript, PHP, Laravel, and MySQL."
                 imageSrc="/img/ReTide_Laravel_Landing_Page.png"
                 imageAlt="ReTide Laravel Landing Page"
+                numPeople={0}
+                avatars={[
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/144053742",
+                        profileUrl: "https://github.com/delvinkhairan",
+                    },
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/114894773",
+                        profileUrl: "https://github.com/Rinitial",
+                    },
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/171002061",
+                        profileUrl: "https://github.com/bagasstvermilion",
+                    },
+                ]}
                 action={
                     <div className="flex flex-wrap items-center gap-4">
                         <a
@@ -139,6 +172,7 @@ export function Projects() {
                                 NodeJS
                             </span>
                         </div>
+
                     </div>
                 }
             />
@@ -260,7 +294,7 @@ export function Projects() {
                 title="Project Based Learning (Machine Learning) pada sebuah dataset 'ai_dev_productivity.csv'"
                 description="Machine Learning pada sebuah dataset 'ai_dev_productivity.csv' untuk  mengklasifikasi sebuah data, dimana target yang akan ditentukan adalah 'task_success', dan dibangun menggunakan bahasa pemrograman Python."
                 imageSrc=""
-                imageAlt="ReTide Landing Page"
+                imageAlt=""
                 action={
                     <div className="flex flex-wrap items-center gap-4">
                         <a
@@ -320,6 +354,21 @@ fitur donasi terintegrasi. Memimpin pengembangan proyek, menerapkan
 pola rekayasa perangkat lunak tingkat lanjut dan praktik terbaik."
                 imageSrc="/img/ReTide_Landing_Page.png"
                 imageAlt="ReTide Landing Page"
+                numPeople={0}
+                avatars={[
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/144053742",
+                        profileUrl: "https://github.com/delvinkhairan",
+                    },
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/114894773",
+                        profileUrl: "https://github.com/Rinitial",
+                    },
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/170499068",
+                        profileUrl: "https://github.com/admiralmanan",
+                    },
+                ]}
                 action={
                     <div className="flex flex-wrap items-center gap-4">
                         <a
@@ -416,7 +465,7 @@ untuk menghasilkan keluaran peringkat teratas dari data Excel."
                 title="Case-Based Searching menggunakan Genetic Algorithm"
                 description="Program berbasis CLI menggunakan Python untuk melakukan proses searching melalui Genetic Algorithm, mulai dari proses inisialisasi populasi, fitness, selection, mutation, dan seleksi survivor hingga memenuhi kriteria loop yang telah ditentukan, yaitu hingga telah mencapai 100 generasi."
                 imageSrc=""
-                imageAlt="ReTide Landing Page"
+                imageAlt=""
                 action={
                     <div className="flex flex-wrap items-center gap-4">
                         <a
@@ -465,12 +514,73 @@ untuk menghasilkan keluaran peringkat teratas dari data Excel."
 
             <TimelineItem
                 time="Desember 2024"
+                title="Freelance System"
+                description=""
+                imageSrc="/img/Freelance System.png"
+                imageAlt="Freelance System Thumbnail"
+                numPeople={0}
+                avatars={[
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/171001548",
+                        profileUrl: "https://github.com/SIMPLIX07",
+                    },
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/190572669",
+                        profileUrl: "https://github.com/QIZIR1",
+                    },
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/148773221",
+                        profileUrl: "https://github.com/azkiyafnii",
+                    },
+                ]}
+                action={
+                    <div className="flex flex-wrap items-center gap-4">
+                        <a
+                            href="https://github.com/SIMPLIX07/TUBES-DPBO"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button
+                                type="button"
+                                className="inline-flex items-center gap-3 text-[rgb(51,65,85)] border-2 font-bold border-[rgb(51,65,85)] rounded-xl px-4 py-2.5 hover:text-[rgb(100,116,139)] hover:border-[rgb(100,116,139)] transition"
+                            >
+                                <Image
+                                    className="w-6 h-6"
+                                    src="/icons/Octicons-mark-github.svg"
+                                    alt="GitHub"
+                                    width={24}
+                                    height={24}
+                                />
+                                Open on GitHub
+                            </button>
+                        </a>
+
+                        <div className="flex flex-wrap items-center gap-2">
+                            <span className="rounded-lg border border-zinc-700 px-4 py-2.5 text-zinc-400">
+                                Java
+                            </span>
+                        </div>
+                    </div>
+                }
+            />
+
+            <TimelineItem
+                time="Desember 2024"
                 title="Knight's Move Path Calculator"
                 description="Memimpin pengembangan aplikasi GUI untuk membandingkan BFS &
 DFS pada langkah kuda (N×N), dengan visualisasi kinerja, pengukuran
 waktu real-time, batch testing CSV, dan optimasi BFS menggunakan
 pemrograman dinamis. Menganalisis kompleksitas eksponensial vs.
 polinomial."
+                imageSrc="/img/KnightsMove.png"
+                imageAlt="Knight's Move Path Calculator Thumbnail"
+                numPeople={0}
+                avatars={[
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/190572669",
+                        profileUrl: "https://github.com/QIZIR1",
+                    },
+                ]}
                 action={
                     <div className="flex flex-wrap items-center gap-4">
                         <a
@@ -518,6 +628,15 @@ polinomial."
                 time="Desember 2024"
                 title="Shortest Path and Alternative Path Calculator between Vortex Buildings and Vortex Roads in Telkom University"
                 description="Mencari shortest path, dan alternative path pada sebuah graph (Vertex dan Edge) dengan konteks Vortex sebagai gedung, dan edge sebaga jalur. Dibangun menggunakan bahasa pemrograman C++."
+                imageSrc="/img/ShortestPath.png"
+                imageAlt="Shortest Path Thumbnail"
+                numPeople={0}
+                avatars={[
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/106793962",
+                        profileUrl: "https://github.com/Rd27p",
+                    },
+                ]}
                 action={
                     <div className="flex flex-wrap items-center gap-4">
                         <a
