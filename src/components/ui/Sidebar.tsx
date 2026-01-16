@@ -19,7 +19,7 @@ export default function Sidebar() {
       </div>
 
       {/* Desktop Sidebar (Hidden on mobile, block on md+) */}
-      <aside className="hidden md:block bg-[#09090B] sticky top-0 h-screen w-80 border-r border-zinc-200 ml-[-5rem] py-16 dark:border-zinc-800">
+      <aside className="hidden md:block bg-[#09090B] sticky top-0 h-screen w-80 border-r border-zinc-800 ml-[-5rem] py-16">
         <div className="flex flex-col gap-6">
           <div>
             <h1 className="text-5xl font-semibold">Daniyal Arshaq Sudrajat</h1>
