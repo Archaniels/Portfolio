@@ -20,14 +20,17 @@ export function Projects() {
                     {
                         imageUrl: "https://avatars.githubusercontent.com/u/144053742",
                         profileUrl: "https://github.com/delvinkhairan",
+                        contributorName: "Delvin Khairan Rabbani",
                     },
                     {
                         imageUrl: "https://avatars.githubusercontent.com/u/114894773",
                         profileUrl: "https://github.com/Rinitial",
+                        contributorName: "Raditya Maheswara Putra",
                     },
                     {
                         imageUrl: "https://avatars.githubusercontent.com/u/171002061",
                         profileUrl: "https://github.com/bagasstvermilion",
+                        contributorName: "Bagas Pratama",
                     },
                 ]}
                 action={
@@ -112,16 +115,14 @@ export function Projects() {
                 numPeople={0}
                 avatars={[
                     {
-                        imageUrl: "https://avatars.githubusercontent.com/u/144053742",
-                        profileUrl: "https://github.com/delvinkhairan",
-                    },
-                    {
                         imageUrl: "https://avatars.githubusercontent.com/u/114894773",
                         profileUrl: "https://github.com/Rinitial",
+                        contributorName: "Raditya Maheswara Putra",
                     },
                     {
-                        imageUrl: "https://avatars.githubusercontent.com/u/171002061",
-                        profileUrl: "https://github.com/bagasstvermilion",
+                        imageUrl: "https://avatars.githubusercontent.com/u/170499068",
+                        profileUrl: "https://github.com/admiralmanan",
+                        contributorName: "Admiral Manan Badawi",
                     },
                 ]}
                 action={
@@ -357,16 +358,19 @@ pola rekayasa perangkat lunak tingkat lanjut dan praktik terbaik."
                 numPeople={0}
                 avatars={[
                     {
-                        imageUrl: "https://avatars.githubusercontent.com/u/144053742",
-                        profileUrl: "https://github.com/delvinkhairan",
-                    },
-                    {
                         imageUrl: "https://avatars.githubusercontent.com/u/114894773",
                         profileUrl: "https://github.com/Rinitial",
+                        contributorName: "Raditya Maheswara Putra",
                     },
                     {
                         imageUrl: "https://avatars.githubusercontent.com/u/170499068",
                         profileUrl: "https://github.com/admiralmanan",
+                        contributorName: "Admiral Manan Badawi",
+                    },
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/179548141",
+                        profileUrl: "https://github.com/KemasFaris69",
+                        contributorName: "Kemas Faris Rahadiansyah",
                     },
                 ]}
                 action={
@@ -523,14 +527,22 @@ untuk menghasilkan keluaran peringkat teratas dari data Excel."
                     {
                         imageUrl: "https://avatars.githubusercontent.com/u/171001548",
                         profileUrl: "https://github.com/SIMPLIX07",
+                        contributorName: "SIMPLIX07",
                     },
                     {
                         imageUrl: "https://avatars.githubusercontent.com/u/190572669",
                         profileUrl: "https://github.com/QIZIR1",
+                        contributorName: "QIZIR1",
                     },
                     {
                         imageUrl: "https://avatars.githubusercontent.com/u/148773221",
                         profileUrl: "https://github.com/azkiyafnii",
+                        contributorName: "azkiyafnii",
+                    },
+                    {
+                        imageUrl: "https://avatars.githubusercontent.com/u/81007109",
+                        profileUrl: "https://github.com/RezaIndraMaulana",
+                        contributorName: "RezaIndraMaulana",
                     },
                 ]}
                 action={
@@ -579,6 +591,7 @@ polinomial."
                     {
                         imageUrl: "https://avatars.githubusercontent.com/u/190572669",
                         profileUrl: "https://github.com/QIZIR1",
+                        contributorName: "QIZIR1",
                     },
                 ]}
                 action={
@@ -627,7 +640,7 @@ polinomial."
             <TimelineItem
                 time="Desember 2024"
                 title="Shortest Path and Alternative Path Calculator between Vortex Buildings and Vortex Roads in Telkom University"
-                description="Mencari shortest path, dan alternative path pada sebuah graph (Vertex dan Edge) dengan konteks Vortex sebagai gedung, dan edge sebaga jalur. Dibangun menggunakan bahasa pemrograman C++."
+                description="Aplikasi berbasis CLI ini merupakan alat navigasi kampus yang menggunakan teori Graf untuk menguruskan data bangunan dan mencari laluan paling efisien. Projek ini memfokuskan pada pelaksanaan algoritma pencarian laluan terpendek dalam struktur data linked list yang dinamik."
                 imageSrc="/img/ShortestPath.png"
                 imageAlt="Shortest Path Thumbnail"
                 numPeople={0}
@@ -635,6 +648,7 @@ polinomial."
                     {
                         imageUrl: "https://avatars.githubusercontent.com/u/106793962",
                         profileUrl: "https://github.com/Rd27p",
+                        contributorName: "Rd27p",
                     },
                 ]}
                 action={
